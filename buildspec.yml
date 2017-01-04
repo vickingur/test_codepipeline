@@ -4,6 +4,8 @@ environment_variables:
   plaintext:
     IMAGE_REPO_NAME: "test_codepipeline"
     IMAGE_TAG: "v0.1"
+    AWS_DEFAULT_REGION: "us-west-2"
+    AWS_ACCOUNT_ID: "781271974495"
 
 phases:
   pre_build:
